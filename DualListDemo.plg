@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DualListDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/DualListDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\Backup\Guoly工作室\Beijing122\BankJiaoyi.cpp"
+"H:\Backup\Guoly工作室\Beijing122\BeijingIntroDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\BitmapPicture.cpp"
+"H:\Backup\Guoly工作室\Beijing122\BossComeDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\BtnST.cpp"
+"H:\Backup\Guoly工作室\Beijing122\BuyDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\Curvefit.cpp"
+"H:\Backup\Guoly工作室\Beijing122\Digistring.cpp"
+"H:\Backup\Guoly工作室\Beijing122\DualListDemo.cpp"
+"H:\Backup\Guoly工作室\Beijing122\DualListDemoDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\EnterBank.cpp"
+"H:\Backup\Guoly工作室\Beijing122\Hispital.cpp"
+"H:\Backup\Guoly工作室\Beijing122\HouseDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\HyperLink.cpp"
+"H:\Backup\Guoly工作室\Beijing122\ListCtrlSortClass.cpp"
+"H:\Backup\Guoly工作室\Beijing122\NetworkClub.cpp"
+"H:\Backup\Guoly工作室\Beijing122\NewsDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\PostMoneyDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\ReplayLoad.cpp"
+"H:\Backup\Guoly工作室\Beijing122\RichTop10.cpp"
+"H:\Backup\Guoly工作室\Beijing122\RijiDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\SelectionDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\SellDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\SetUpGame.cpp"
+"H:\Backup\Guoly工作室\Beijing122\ShengmingDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\StaticCounter.cpp"
+"H:\Backup\Guoly工作室\Beijing122\StoryDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\Ticker.cpp"
+"H:\Backup\Guoly工作室\Beijing122\TipDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp"
+"H:\Backup\Guoly工作室\Beijing122\Wangba.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP54.tmp" 
+Creating temporary file "C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/DualListDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"H:\Backup\Guoly工作室\Beijing122\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP55.tmp" 
+Creating temporary file "C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DualListDemo.pdb" /debug /machine:I386 /out:"Debug/DualListDemo.exe" /pdbtype:sept 
+".\Debug\BankJiaoyi.obj"
+".\Debug\BeijingIntroDlg.obj"
+".\Debug\BitmapPicture.obj"
+".\Debug\BossComeDlg.obj"
+".\Debug\BtnST.obj"
+".\Debug\BuyDlg.obj"
+".\Debug\Curvefit.obj"
+".\Debug\Digistring.obj"
+".\Debug\DualListDemo.obj"
+".\Debug\DualListDemoDlg.obj"
+".\Debug\EnterBank.obj"
+".\Debug\Hispital.obj"
+".\Debug\HouseDlg.obj"
+".\Debug\HyperLink.obj"
+".\Debug\ListCtrlSortClass.obj"
+".\Debug\NetworkClub.obj"
+".\Debug\NewsDlg.obj"
+".\Debug\PostMoneyDlg.obj"
+".\Debug\ReplayLoad.obj"
+".\Debug\RichTop10.obj"
+".\Debug\RijiDlg.obj"
+".\Debug\SelectionDlg.obj"
+".\Debug\SellDlg.obj"
+".\Debug\SetUpGame.obj"
+".\Debug\ShengmingDlg.obj"
+".\Debug\StaticCounter.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StoryDlg.obj"
+".\Debug\Ticker.obj"
+".\Debug\TipDlg.obj"
+".\Debug\TopPlayerDlg.obj"
+".\Debug\Wangba.obj"
+".\Debug\DualListDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\INTEL\LOCALS~1\Temp\RSP56.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BankJiaoyi.cpp
+BeijingIntroDlg.cpp
+BitmapPicture.cpp
+BossComeDlg.cpp
+BtnST.cpp
+BuyDlg.cpp
+Curvefit.cpp
+Digistring.cpp
+DualListDemo.cpp
+DualListDemoDlg.cpp
+EnterBank.cpp
+Hispital.cpp
+HouseDlg.cpp
+HyperLink.cpp
+ListCtrlSortClass.cpp
+NetworkClub.cpp
+NewsDlg.cpp
+PostMoneyDlg.cpp
+ReplayLoad.cpp
+RichTop10.cpp
+Generating Code...
+Compiling...
+RijiDlg.cpp
+SelectionDlg.cpp
+H:\Backup\Guoly工作室\Beijing122\SelectionDlg.cpp(2020) : warning C4101: 'fp1' : unreferenced local variable
+H:\Backup\Guoly工作室\Beijing122\SelectionDlg.cpp(2020) : warning C4101: 'fp2' : unreferenced local variable
+SellDlg.cpp
+SetUpGame.cpp
+ShengmingDlg.cpp
+StaticCounter.cpp
+StoryDlg.cpp
+Ticker.cpp
+H:\Backup\Guoly工作室\Beijing122\Ticker.cpp(455) : warning C4101: 'fp1' : unreferenced local variable
+H:\Backup\Guoly工作室\Beijing122\Ticker.cpp(455) : warning C4101: 'fp2' : unreferenced local variable
+TipDlg.cpp
+TopPlayerDlg.cpp
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(213) : warning C4018: '<' : signed/unsigned mismatch
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(232) : warning C4018: '<' : signed/unsigned mismatch
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(148) : warning C4101: 'score' : unreferenced local variable
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(149) : warning C4101: 'health' : unreferenced local variable
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(146) : warning C4101: 'name' : unreferenced local variable
+H:\Backup\Guoly工作室\Beijing122\TopPlayerDlg.cpp(287) : warning C4804: '>=' : unsafe use of type 'bool' in operation
+Wangba.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DualListDemo.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

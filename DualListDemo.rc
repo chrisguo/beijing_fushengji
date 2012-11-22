@@ -1,0 +1,876 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SELECTIONDLG DIALOGEX 0, 0, 412, 333
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "北京浮生记"
+MENU IDR_MENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,17,25,146,105
+    CONTROL         "List1",IDC_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,241,23,149,103
+    CONTROL         "西直门",IDC_LOC_XIZHIMEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,149,38,20
+    CONTROL         "积水潭",IDC_LOC_JISHUITAN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,309,150,38,20
+    CONTROL         "东直门",IDC_LOC_DONGZHIMEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,357,150,38,20
+    CONTROL         "建国门",IDC_LOC_JIANGUOMEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,356,195,38,20
+    CONTROL         "北京站",IDC_LOC_BEIJINGZHAN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,356,233,38,24
+    CONTROL         "崇文门",IDC_LOC_CHONGWENMEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,310,234,38,22
+    CONTROL         "长椿街",IDC_LOC_CHANGCHUNJIE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,262,234,38,21
+    CONTROL         "复兴门",IDC_LOC_FUXINGMEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,262,193,38,21
+    CONTROL         "公主坟",IDC_LOC_GONGZHUFEN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,218,193,38,21
+    CONTROL         "苹果园",IDC_LOC_PINGGUOYUAN,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,174,194,38,21
+    PUSHBUTTON      " ==>",IDC_ADD,185,45,41,17
+    PUSHBUTTON      " <== ",IDC_REMOVE,185,89,41,17
+    PUSHBUTTON      "==>>",IDC_ADDALL,223,113,10,17,NOT WS_VISIBLE
+    PUSHBUTTON      "<<==",IDC_REMOVEALL,167,115,15,17,NOT WS_VISIBLE
+    LTEXT           "现 金",IDC_STATIC,14,154,26,8
+    LTEXT           "欠 债",IDC_STATIC,15,215,20,8
+    LTEXT           "",IDC_CASH,42,148,119,20,SS_SUNKEN
+    CTEXT           "买 进",IDC_STATIC,197,32,20,8
+    LTEXT           "卖 出",IDC_STATIC,198,78,20,8
+    LTEXT           "健康：",IDC_STATIC,14,237,25,8
+    GROUPBOX        "您的状态",IDC_STATIC,9,135,157,135,BS_LEFT
+    LTEXT           "存款：",IDC_STATIC,15,184,25,8
+    LTEXT           "",IDC_BANK_MONEY,41,177,120,20,SS_SUNKEN
+    LTEXT           "Static",IDC_STATIC_COUNTER,40,233,45,21,SS_SUNKEN
+    LTEXT           "Static",IDC_MY_DEBT_LED,41,208,120,19,SS_SUNKEN
+    LTEXT           "Static",IDC_STATIC1,0,308,410,25
+    LTEXT           "名声:",IDC_STATIC,90,237,20,8
+    LTEXT           "Static",IDC_STATIC_FAME,115,233,45,21,SS_SUNKEN
+    GROUPBOX        "北京市地铁示意图",IDC_LOC,171,134,230,135,BS_LEFT
+    PUSHBUTTON      "银  行",IDC_TRY,13,277,68,27
+    PUSHBUTTON      "医  院",IDC_HOSP,92,278,70,25
+    PUSHBUTTON      "邮  局",IDC_POST,174,278,66,24
+    PUSHBUTTON      "租房中介",IDC_AGENCY,252,278,74,25
+    PUSHBUTTON      "网  吧",IDC_WANGBA,338,278,59,25
+    LTEXT           "",IDC_STATIC,0,0,410,8,0,WS_EX_STATICEDGE
+    CTEXT           "黑  市",IDC_STATIC,44,13,76,8
+    CTEXT           "您的出租屋",IDC_STATIC,269,12,77,8
+    LTEXT           "",IDC_WUPING,347,26,35,8
+    PUSHBUTTON      "老板来了",IDC_BOSS,180,227,75,35,BS_VCENTER | 
+                    BS_MULTILINE,WS_EX_RTLREADING
+    LTEXT           "",IDC_BG,300,200,55,8
+    PUSHBUTTON      "我要逛京城",IDC_GO_SHANGHAI,180,152,75,22,BS_VCENTER | 
+                    BS_MULTILINE,WS_EX_RTLREADING
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 292, 248
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于北京浮生记"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确   定",IDOK,121,222,65,14,WS_GROUP
+    LTEXT           "北京浮生记（TM）",IDC_STATIC,159,8,63,8
+    LTEXT           "V 1.2.2版for Windows XP",IDC_STATIC,138,20,106,8
+    PUSHBUTTON      "作者",IDC_AUTHOR,30,30,6,6,0,WS_EX_STATICEDGE
+    LTEXT           "Copyright(C) Guoly 工作室",IDC_STATIC,97,35,167,8
+    CTEXT           "如果您想获取最新版本信息、提出您的建议和报告您发现的bug,请给作者发E-Mail：",
+                    IDC_STATIC,38,53,225,18
+    LTEXT           "mailto:guoxh@hotmail.com",IDC_GUO_EMAIL,105,73,115,8
+    LTEXT           "如果您想下载最新版本、参加本游戏的讨论、报告您获得的高分，请访问：",
+                    IDC_STATIC,10,88,265,8
+    LTEXT           "http://www.guoly.com",IDC_GUO_GROUPS,55,102,184,8
+    LTEXT           "本版本特别为Windows XP设计，主要是解决原v1.2.2版本在XP下运行不正常的问题。其他内容与原版本一致。",
+                    IDC_STATIC,12,118,253,20
+    LTEXT           "如果您想给辛苦的作者寄5分钱来支持本游戏的进一步发展，请按此：",
+                    IDC_STATIC,11,142,229,8
+    PUSHBUTTON      "寄5分钱",IDC_POST_MONEY,201,155,55,14
+    LTEXT           "这是本游戏的特别声明，您一定要看并遵守：",IDC_STATIC,11,
+                    182,169,8
+    PUSHBUTTON      "特别声明",IDC_DECLARE,201,177,55,14
+    LTEXT           "",IDC_LOGO,0,7,80,33
+END
+
+IDD_DUALLISTDEMO_DIALOG DIALOGEX 0, 0, 307, 293
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "北京浮生记"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NAME,110,193,84,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "开始新游戏 >>",IDC_SELECTIONDLG,90,220,134,18
+    PUSHBUTTON      "逃离北京",IDCANCEL,90,265,132,18
+    LTEXT           "您从家乡来到北京，举目无亲，仅剩现金2000元，同时还欠村长5400元高利贷。",
+                    IDC_STATIC,15,26,285,11
+    LTEXT           "“自己动手，丰衣足食”。考虑再三，您决定在北京做生意，每天在地铁各站",
+                    IDC_STATIC,15,40,276,8
+    LTEXT           "之间倒卖各种物品。您只能在北京停留40天，必须回故乡结婚。",
+                    IDC_STATIC,18,56,254,8
+    LTEXT           "您的目标是在这40天内还掉迅速增长的债务，而且还要赚大钱，登上富人榜。",
+                    IDC_STATIC,17,74,277,8
+    LTEXT           "但是发财并不容易，北京的小偷、流氓、坏人、工商局、卫生局的人都会找您",
+                    IDC_STATIC,18,94,277,8
+    LTEXT           "麻烦。您必须与他们斗智斗勇。",IDC_STATIC,18,109,277,8
+    LTEXT           "您应该在邮局给村长还钱。另外，身上现金太多是危险的，应该在银行存钱。",
+                    IDC_STATIC,15,169,274,8
+    PUSHBUTTON      "关于本游戏",IDC_ABOUT_ME,172,245,50,14
+    PUSHBUTTON      "高分记录",IDC_HIGH_SCORE,90,245,50,14
+    LTEXT           "输入您的大名：",IDC_STATIC,35,197,65,8
+    LTEXT           "您在海淀区租的房子最多只能放100个东西。",IDC_STATIC,15,
+                    152,248,8
+    LTEXT           "故 事 简 介",IDC_STATIC,115,5,45,10
+    CTEXT           "要  点",IDC_STATIC,130,125,34,9
+    LTEXT           "正确策略：先倒卖便宜的积累资金，后倒卖贵的赚大钱。",
+                    IDC_STATIC,17,135,240,8
+END
+
+IDD_SELL DIALOG DISCARDABLE  0, 0, 263, 113
+STYLE WS_POPUP | WS_CAPTION
+CAPTION "卖多少？"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,48,80,50,20
+    PUSHBUTTON      "放 弃",IDCANCEL,165,80,50,20
+    CTEXT           "",IDC_SELL_MSG,5,17,250,8
+    LTEXT           "您想卖出多少？",IDC_STATIC,70,37,57,8
+    EDITTEXT        IDC_EDIT1,127,33,40,14,ES_AUTOHSCROLL | WS_GROUP
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | WS_GROUP | WS_TABSTOP,171,33,10,14
+END
+
+IDD_BUY DIALOG DISCARDABLE  0, 0, 277, 118
+STYLE WS_POPUP | WS_CAPTION
+CAPTION "买多少？"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,30,80,55,20
+    PUSHBUTTON      "取  消",IDCANCEL,175,80,50,20
+    LTEXT           "您的现金是",IDC_STATIC,17,17,43,8
+    LTEXT           "",IDC_BUY_CASH,58,17,217,8
+    LTEXT           "您想买多少？",IDC_STATIC,63,56,51,8
+    EDITTEXT        IDC_EDIT1,119,52,41,14,ES_AUTOHSCROLL | WS_GROUP
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | WS_GROUP | WS_TABSTOP,165,53,10,14
+    LTEXT           "",IDC_NO_HOUSE,18,32,252,8
+END
+
+IDD_BANK_JIAOYI DIALOG DISCARDABLE  0, 0, 187, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "现金交易"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确认交易",IDOK,20,75,50,20
+    PUSHBUTTON      "取消交易",IDCANCEL,130,75,50,20
+    LTEXT           "",IDC_SAVE_QUIT_MSG,10,20,75,8
+    EDITTEXT        IDC_MONEY_CNT,86,16,44,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | WS_GROUP | WS_TABSTOP,133,16,10,14
+END
+
+IDD_ENTER_BANK DIALOG DISCARDABLE  0, 0, 239, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "银行！"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "存  钱",IDOK,30,40,50,20
+    PUSHBUTTON      "取  钱",IDCANCEL,96,40,50,20
+    CTEXT           "",IDC_BANK_GREETING,5,10,225,8
+    PUSHBUTTON      "离  开",IDC_QUIT,160,40,50,20
+END
+
+IDD_IN_HISPITAL DIALOG DISCARDABLE  0, 0, 244, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "在医院里"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确 认",IDOK,30,75,50,14
+    PUSHBUTTON      "你太黑了!俺告你去!",IDCANCEL,120,75,75,14
+    LTEXT           "",IDC_HISPITAL_MSG,7,25,233,8
+    EDITTEXT        IDC_CURE_POINT,94,49,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | WS_GROUP | WS_TABSTOP,136,48,10,14
+    ICON            IDI_HISPITAL,IDC_STATIC,5,5,20,20
+    LTEXT           "治疗点数：",IDC_STATIC,49,52,40,8
+    LTEXT           "坚决抵制腐败！每个健康点数俺只收您3500元红包。”",
+                    IDC_STATIC,5,35,215,8
+END
+
+IDD_REPLAY_LOAD DIALOG DISCARDABLE  0, 0, 187, 118
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "给村长还钱"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,20,85,59,20
+    PUSHBUTTON      "缓几天吧",IDCANCEL,105,85,58,20
+    CTEXT           "",IDC_LOAD_MSG,10,14,175,8
+    EDITTEXT        IDC_REPLAY_LOAD_CNT,71,38,49,14,ES_AUTOHSCROLL | 
+                    WS_GROUP
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS | WS_GROUP | WS_TABSTOP,128,40,6,10
+    LTEXT           "您还多少？",IDC_STATIC,29,41,40,8
+END
+
+IDD_TOP_PLAYER DIALOG DISCARDABLE  0, 0, 249, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "高手榜"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,110,160,50,14
+    CONTROL         "List2",IDC_TOP_PLAYER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,10,15,225,135
+    LTEXT           "北京浮生高手前10名",IDC_STATIC,11,3,114,8
+END
+
+IDD_NEWS DIALOG DISCARDABLE  0, 0, 352, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "北京新闻"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,159,70,65,20
+    CTEXT           "Static",IDC_MSG,60,21,285,35
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,1,4,41,51
+END
+
+IDD_RIJI DIALOG DISCARDABLE  0, 0, 319, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "我在北京的岁月"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "关上日记本",IDOK,133,70,75,25
+    CONTROL         141,IDC_STATIC,"Static",SS_BITMAP,3,5,41,51
+    LTEXT           "Static",IDC_MSG,65,26,250,8
+    LTEXT           "",IDC_H_M_1,64,10,248,8
+    LTEXT           "",IDC_H_M_2,67,44,248,8
+END
+
+IDD_NETWORK_CLUB DIALOG DISCARDABLE  0, 0, 187, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "首都机场"
+FONT 10, "MS Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,99,50,14
+    CTEXT           "您想飞到美国，在全球建立贸易网？",IDC_STATIC,42,9,110,8
+    LTEXT           "     即将到来的2.0版本中，您可以在世界各大城市（纽约、东京、伦敦、巴黎、上海、孟买、新加坡和朝鲜的平壤）间",
+                    IDC_STATIC,5,22,175,18
+    LTEXT           "从事国际贸易。",IDC_STATIC,4,40,169,8
+    LTEXT           "    给朝鲜卖粮食？从巴黎倒化妆品？在纽约卖印度特产？还是到新加坡进口东南亚水果？",
+                    IDC_STATIC,5,51,175,19
+    LTEXT           "    最刺激的恐怕是在东京!  倒卖日本特产----“死不认帐药”和“卑鄙丸子”? ",
+                    IDC_STATIC,5,71,172,19
+END
+
+IDD_TIP DIALOGEX 0, 0, 277, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "发财之日积月累"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TIP_RECT,"Static",SS_ETCHEDFRAME,10,11,255,149,
+                    WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "Some String",IDC_TIPSTRING,55,63,195,42
+    CONTROL         "今后还显示《日积月累》",IDC_STARTUP,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,13,172,102,10
+    PUSHBUTTON      "下一提示",IDC_NEXTTIP,125,180,55,24,WS_GROUP
+    DEFPUSHBUTTON   "进入北京 ->",IDOK,195,180,65,24,WS_GROUP
+    RTEXT           "Footer text here",ST_FOOTER,55,105,180,8
+    PUSHBUTTON      "Tell Me &More",IDB_MORE,55,190,50,14,WS_DISABLED
+    CONTROL         "",IDB_LIGHTBULB,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,
+                    15,20,18,20
+    LTEXT           "Header",ST_HEADER,55,25,195,30
+END
+
+IDD_WANGBA DIALOG DISCARDABLE  0, 0, 187, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "街头网吧"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "离开网吧",IDOK,70,160,50,14
+    CTEXT           "请您在网吧选择做什么：",IDC_STATIC,2,3,178,8
+    LTEXT           "mailto:guoxh@hotmail.com",IDC_MAIL_ME,78,27,97,8
+    LTEXT           "给本游戏作者写信",IDC_STATIC,5,27,70,8
+    GROUPBOX        "游戏相关",IDC_STATIC,1,105,179,42
+    LTEXT           "免费游戏",IDC_STATIC,5,115,54,8
+    LTEXT           "http://www.freegames.com",IDC_FREE_GAME,70,115,95,8
+    LTEXT           "游戏开发",IDC_STATIC,5,135,40,8
+    LTEXT           "http://www.gamedev.net/",IDC_GAME_DEV,70,135,101,8
+    LTEXT           "参加讨论组，得到最新版本和最新信息。",IDC_STATIC,4,38,
+                    174,8
+    CTEXT           "http://groups.yahoo.com/group/BeijingHell",IDC_GROUPS,1,
+                    50,179,8
+    GROUPBOX        "本游戏相关",IDC_STATIC,0,17,180,85
+    LTEXT           "访问“北京浮生记”主页",IDC_STATIC,5,63,165,8
+    LTEXT           "http://www.guoly.com",IDC_ZAOBAO1,24,75,146,8
+    LTEXT           "http://guolycomtypeb.51.net",IDC_SOHU1,24,86,145,8
+END
+
+IDD_HOUSE_DLG DIALOG DISCARDABLE  0, 0, 224, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "租房中介"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "成  交",IDOK,35,75,50,14
+    PUSHBUTTON      "怕上当，下次吧",IDCANCEL,125,75,80,14
+    CTEXT           "欢迎来到北京“扁子居”租房中介公司!",IDC_STATIC,28,6,
+                    175,8
+    CTEXT           "我们的理念：免费看房，成交补款，童叟全欺，无耻无畏!",
+                    IDC_STATIC,5,18,210,8
+    CTEXT           "",IDC_SAY1,3,32,217,8
+    CTEXT           "",IDC_SAY2,3,46,217,8
+END
+
+IDD_TOP_10 DIALOG DISCARDABLE  0, 0, 204, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "恭喜"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_MY_NAME,101,86,74,14
+    DEFPUSHBUTTON   "OK",IDOK,75,120,50,14
+    LTEXT           "恭喜恭喜! “北京金钱年鉴”通知您：",IDC_STATIC,3,13,177,
+                    8
+    LTEXT           "",IDC_RICH_MSG,3,35,197,8
+    LTEXT           "请输入您的大名：",IDC_STATIC,3,88,80,8
+    LTEXT           "历史将永远记住您白手起家、劳动致富的光辉事迹。",
+                    IDC_STATIC,2,65,187,8
+    LTEXT           "",IDC_FAME_GET,3,51,184,8
+END
+
+IDD_SETUP DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏设置"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,30,75,50,14
+    PUSHBUTTON      "取  消",IDCANCEL,115,75,50,14
+    CONTROL         "关闭声音",IDC_CLOSE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,48,68,10
+    CONTROL         "允许黑客攻击银行网络",IDC_HACKER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,21,15,121,10
+    LTEXT           "您的存款可能疯狂减少或者增加，小心为妙。",IDC_STATIC,23,
+                    30,161,8
+END
+
+IDD_STORY DIALOG DISCARDABLE  0, 0, 187, 205
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "开始游戏 >>",IDOK,60,183,70,14,WS_DISABLED
+    CTEXT           "“北京浮生记”的故事",IDC_STATIC,24,8,124,8
+    LTEXT           "     您扮演一位从外地到北京谋生的青年。一开始，您只有2000元钱，并且还欠村长（一个流氓头子）5500元 债务。这些债务每天的利息高达10%.如果不及时还清，村长会叫在北京的老乡们来扁您，您可能牺牲在北京街头。 您决定在北京各地铁口黑市倒卖各种物品来发财致富，不仅还掉债务，而且要荣登北京富人排行榜。 ",
+                    IDC_STATIC,10,25,170,60
+    LTEXT           "    您将体念在北京卖盗版VCD和走私汽车的刺激以及我们这个时代才有的搞笑事件。 ",
+                    IDC_STATIC,10,136,170,28
+    CTEXT           "",IDC_INIT_MSG,7,166,173,8
+    LTEXT           "    您只能在北京呆40天，每次奔走一个黑市算一天。一开始，您租的房子只能放100个东西。 您会在北京遭遇到各种事件，您需要与流氓、小偷、凶手、贪官、骗子等斗智斗勇，还需要在北京恶劣的自然环境下设法生存下来。",
+                    IDC_STATIC,12,88,168,42
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,4,20,20
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 120
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "北京介绍"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,101,50,14
+    LTEXT           "北京简介",IDC_STATIC,69,4,55,8
+    LTEXT           "    北京是具有3000多年建城史和800多年建都史的世界历史文化名城。",
+                    IDC_STATIC,5,16,175,19
+    LTEXT           "    它地处华北大平原北端，市中心位于北纬39度56分，东经116度20分。",
+                    IDC_STATIC,5,41,170,19
+    LTEXT           "    北京环境污染严重。最近几年的治理非常有成效，有时半夜甚至能够看见夜空中的星星。",
+                    IDC_STATIC,4,64,175,21
+END
+
+IDD_BOSS_COME DIALOG DISCARDABLE  0, 0, 299, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "写作"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,206,208,50,14
+    EDITTEXT        IDC_EDIT1,11,18,274,172,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "存 盘",IDC_BUTTON1,50,209,50,14
+    DEFPUSHBUTTON   "拼写检查",IDC_SPELL_CHECK,124,208,50,14
+END
+
+IDD_POST_MONEY DIALOG DISCARDABLE  0, 0, 242, 59
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "寄钱"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,100,42,50,14
+    LTEXT           "   非常感谢您的支持! 钱就免了吧。 请把这个小游戏推荐给您的朋友、同事、同学和你所爱的任何人，让大家都轻松轻松！",
+                    IDC_STATIC,9,9,225,24
+END
+
+IDD_SHENGMING DIALOG DISCARDABLE  0, 0, 307, 236
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,215,50,14
+    LTEXT           "关于本游戏的特别声明",IDC_STATIC,132,8,90,8
+    LTEXT           "1. 本游戏描述的情节、场景以及行事方式纯属虚拟，与现实无任何影射关系。不是所有的北京租房中介公司都存在欺诈行为，正如不是所有的官员都腐败。",
+                    IDC_STATIC,5,35,295,23
+    LTEXT           "2.本游戏的若干物品属性(走私货物、假冒伪劣、禁书)、游戏设定的玩家若干行为（倒卖法律禁止的物品）是违法的、现实社会道德不能接受的。因此，本游戏禁止尚未建立是非观念的20岁以下人玩。其他年龄人士在玩本游戏时必须理解游戏的虚拟性，走私、假冒伪劣的违法性，遵守国家一切法律法规。 ",
+                    IDC_STATIC,4,62,301,35
+    LTEXT           "3. 本游戏是免费软件，玩家个人可以自由拷贝、下载、复制，并可以推荐给20岁以上的成年人。",
+                    IDC_STATIC,5,102,295,18
+    LTEXT           "  4. 欢迎网站提供本游戏的免费下载服务。但是在提供下载服务之前，必须保证得到作者的书面同意，除非作者主动与该网站联系。机器预装、集成、以CD盘销售、赠送或其他任何以本游戏进行的商业赢利行为，都必须得到作者的书面同意。本条所涉及的免费下载服务或其他以本游戏进行的商业赢利行为，都必须保证本游戏信息的完整性、一致性。不得对本游戏（包括游戏的名称、版本、作者信息、二进制程序代码和其他任意文件等）进行任何形式的修改。",
+                    IDC_STATIC,1,126,299,54
+    LTEXT           "5. 在作为免费软件发行时，我们无为本游戏提供任何形式技术支持的责任，并认定本软件是没有担保的(no warranty)",
+                    IDC_STATIC,5,186,290,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SELECTIONDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 326
+        HORZGUIDE, 50
+        HORZGUIDE, 80
+        HORZGUIDE, 120
+        HORZGUIDE, 150
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 285
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_DUALLISTDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_SELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_BUY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_BANK_JIAOYI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_ENTER_BANK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_IN_HISPITAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_REPLAY_LOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_TOP_PLAYER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_NEWS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_RIJI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_NETWORK_CLUB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_TIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_WANGBA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_HOUSE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_TOP_10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_STORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_BOSS_COME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_POST_MONEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_SHENGMING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_HISPITAL            ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_MONEY               ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_HAND1               ICON    DISCARDABLE     "res\\32x32x256_Hand.ico"
+IDI_HAND2               ICON    DISCARDABLE     "res\\32x32x256_Lamp.ico"
+IDI_HOUSE1              ICON    DISCARDABLE     "res\\hand3.ico"
+IDI_CROSS               ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_HAND3               ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_HAND4               ICON    DISCARDABLE     "res\\hand4.ico"
+IDI_HAND5               ICON    DISCARDABLE     "res\\hand5.ico"
+IDI_HAND6               ICON    DISCARDABLE     "res\\hand6.ico"
+IDI_HAND7               ICON    DISCARDABLE     "res\\hand7.ico"
+IDI_HAND8               ICON    DISCARDABLE     "res\\hand8.ico"
+IDI_HAND9               ICON    DISCARDABLE     "res\\hand9.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NEWS                BITMAP  DISCARDABLE     "news.bmp"
+IDB_RiJI                BITMAP  DISCARDABLE     "riji.bmp"
+IDB_EMAIL               BITMAP  DISCARDABLE     "email.bmp"
+IDB_BG                  BITMAP  DISCARDABLE     "res\\subway.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\logo.bmp"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Beijing MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Beijing\0"
+            VALUE "LegalCopyright", "Copyright (C) 1900\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Beijing.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Beijing Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "系 统"
+    BEGIN
+        MENUITEM "新 游 戏",                    IDM_NEW_GAME
+        MENUITEM "高手排行",                    ID_HIGH
+        MENUITEM "游戏设置",                    IDM_SETUP
+        MENUITEM "退    出",                    ID_EXIT_ME
+    END
+    POPUP "重要场所"
+    BEGIN
+        MENUITEM "银    行",                    IDM_BANK
+        MENUITEM "邮    局",                    IDM_POSTOFFICE
+        MENUITEM "医    院",                    IDM_HOSPIAL
+        MENUITEM "机    场",                    IDM_AIRPORT
+        MENUITEM "租房中介",                    IDM_HOUSE_AGENT
+        MENUITEM "网    吧",                    IDM_WANGBA
+    END
+    POPUP "帮 助"
+    BEGIN
+        MENUITEM "北京简介",                    IDC_BEIJING_INTRO
+        MENUITEM "游戏故事",                    IDC_STORY
+        MENUITEM "游戏文档",                    ID_INTRO
+        MENUITEM "关于本游戏",                  ID_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于北京浮生记"
+    CG_IDS_TIPOFTHEDAY      "Displays a Tip of the Day."
+    CG_IDS_TIPOFTHEDAYMENU  "Ti&p of the Day..."
+    CG_IDS_DIDYOUKNOW       "Did you know..."
+    CG_IDS_FILE_ABSENT      "Tips file does not exist in the prescribed directory"
+    CG_IDP_FILE_CORRUPT     "Trouble reading the tips file"
+    CG_IDS_TIPOFTHEDAYHELP  "&Help"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DualListDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TICKER_DRAGBAR      BITMAP  DISCARDABLE     "res\\TickerDragBar.bmp"
+IDB_TICKER_BKG          BITMAP  DISCARDABLE     "res\\tickerbkg2.bmp"
+IDB_LIGHTBULB           BITMAP  DISCARDABLE     "res\\litebulb.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\DualListDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\DualListDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

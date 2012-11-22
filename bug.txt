@@ -1,0 +1,2 @@
+bug1:
+ if you have 100 goods, and a japanese events happen, the added goods would not be added.
