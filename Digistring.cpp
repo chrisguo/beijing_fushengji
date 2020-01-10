@@ -1,3 +1,4 @@
+master-change2
 // Digistring.cpp : implementation file
 //
 // Copyright (C) 2000 by Michel Wassink
